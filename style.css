@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+/* header */
+
+header {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  height: 3em;
+  display: flex;
+  font: 400 15px/1.2 'Merienda One', Helvetica, sans-serif;
+  color: rgba(0,0,0,0.7);
+}
+
+header nav{
+  display: flex;
+  margin: auto;
+}
+
+header ul {
+  display: flex;
+  margin: auto;
+}
+
+header ul li {
+  padding: 1em;
+}
+
+/* a */
+
+.a {
+  height: 33.5em;
+}
+
+.a .image {
+  background-image: url("images/bg2.png");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.a h1 {
+  width: fit-content;
+  font: 100 75px/1.3 'Oleo Script', Helvetica, sans-serif;
+  color: #ffffff;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+  margin: auto;
+  margin-bottom: 0em;
+  margin-top: 1.2em;
+}
+
+.a p {
+  width: fit-content;
+  font: 100 25px/1.3 'Oleo Script', Helvetica, sans-serif;
+  color: #ffffff;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+  margin: auto;
+  margin-top: -0.77em;
+}
+
+.a a {
+  margin: auto;
+  margin-bottom: 0;
+}
+
+/* b */
+.b {
+  font: 400 15px/1.2 'Merienda One', Helvetica, sans-serif;
+  background-color: rgb(31, 25, 53);
+  padding-bottom: 1em;
+  padding-right: 3em;
+}
+
+.b .wrapper {
+  display: flex;
+  margin: auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  width: 30em;
+  text-align: center;
+}
+
+.b .wrapper:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+.b .info-wrap {
+  margin-left: 2em;
+}
+
+.b .wrapper img{
+  display: block;
+  margin-left: 2em;
+  margin-right: auto;
+  margin-top: 1em;
+  width: 5em;
+  object-fit: contain;
+}
+
+.b h1 {
+  margin: 0.5em;
+}
+
+/* footer */
+footer {
+  display: flex;
+  height: 3em;
+  background-color: rgb(81, 65, 134);
+}
+
+footer a {
+  margin: auto;
+}
+
+@media (max-width: 690px) {
+  .b {
+    margin: auto;
+    font-size: 0.6em;
+    display: flex;
+  }
+  .wrapperwrapper {
+    margin: auto;
+  }
+}
+
+@media (min-width: 1023px) {
+  .a h1 {
+    font: 100 150px/1.3 'Oleo Script', Helvetica, sans-serif;
+    margin-top: 0.9em;
+  }
+  
+  .a p {
+    font: 100 50px/1.3 'Oleo Script', Helvetica, sans-serif;
+  }
+}
+
+

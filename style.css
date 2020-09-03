@@ -9,7 +9,6 @@
 body {
   background-color: black;
   color: white;
-  font: 400 15px/1.2 'Merienda One', Helvetica, sans-serif;
 }
 
 a {
@@ -25,7 +24,7 @@ header {
   left: 0;
   height: 3em;
   display: flex;
-  font: 400 15px/1.2 'Merienda One', Helvetica, sans-serif;
+  font-family: 'Oleo Script', cursive;
   color: rgba(0,0,0,0.7);
 }
 
@@ -86,7 +85,7 @@ header ul li {
 
 /* b */
 .b {
-  font: 400 15px/1.2 'Merienda One', Helvetica, sans-serif;
+  font-family: 'Merienda', cursive;  
   background-color: rgb(31, 25, 53);
   padding-bottom: 1em;
   padding-right: 3em;
@@ -128,6 +127,7 @@ header ul li {
   font-size: 2em;
   display: flex;
   height: 14em;
+  font-family: 'Merienda', cursive;
 }
 
 .c .cdiv {
